@@ -6,7 +6,7 @@ terraform {
   }
 }
 
-resource "local_file" "example" {
+resource "local_file" "git-module" {
   filename = "git-module.txt"
   content  = "Module loaded from Git."
 }
