@@ -8,5 +8,5 @@ terraform {
 
 resource "local_file" "git-module" {
   filename = "git-module.txt"
-    content  = "Secondary module - version 2."
+    content  = "Module loaded from Git - current branch."
 }
